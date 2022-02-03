@@ -13,8 +13,8 @@ This tutorial is licensed under a <a href="http://creativecommons.org/licenses/b
 ## Acknowledgements
 
 Elements of this lab procedure were adapted from materials developed by [Dr. Peter Bui](http://www3.nd.edu/~pbui/) for the [CSE 10101 "Elements of Computing I" course](https://www3.nd.edu/~pbui/teaching/cdt.30010.fa16/).
-- [Reading 05: Lists, Strings](https://www3.nd.edu/~pbui/teaching/cdt.30010.fa16/reading05.html)
-- [Notebook 05: Lists, Strings](https://www3.nd.edu/~pbui/teaching/cdt.30010.fa16/notebook05.html)
+- [Reading 04: Lists, Strings](https://www3.nd.edu/~pbui/teaching/cdt.30010.fa16/reading05.html)
+- [Notebook 04: Lists, Strings](https://www3.nd.edu/~pbui/teaching/cdt.30010.fa16/notebook05.html)
 
 Elements of this lab procedure were adapted from materials developed by [Dr. Janet Davis](https://cs.whitman.edu/~davisj/) for the the [CSC 105 "The Digital Age" course](https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/). 
 - [Laboratory: Programming in Python](http://www.cs.grinnell.edu/~davisjan/csc/105/labs/python1.html)
@@ -104,7 +104,7 @@ Elements of this lab procedure were adapted from materials developed by [Lindsay
 
 ```Python
 # example that creates a new string variable
-first_name = 'Katherine'
+first_name = 'John'
 
 # check variable type
 type(first_name)
@@ -132,13 +132,13 @@ str(True)
 
 ```Python
 # example using my name
-name = "katherine walden"
+name = "john templeton"
 ```
 
 15. Next, we’ll use the `print` function with the method `title`. Python functions and methods always end with a `()`. Methods define an additional action that can be applied to the data.
 ```Python
 # example using my name, printed in title case
-name = "katherine walden"
+name = "john templeton"
 print(name.title())
 ```
 
@@ -146,9 +146,9 @@ print(name.title())
 
 17. We can also change the case using the `upper()` method and `lower()` method: `print(name.upper())` outputs your string with all capital letters, while `print(name.lower())` outputs your string in all lower case.
 
-- `Katherine Walden`
-- `KATHERINE WALDEN`
-- `katherine walden`
+- `John Templeton`
+- `JOHN TEMPLETON`
+- `john templeton`
 
 18. Try adding two additional `print()` functions calling the `name` variable with each of these methods.  
 
@@ -160,8 +160,8 @@ print(name.title())
 
 20. If we want our first and last name to be separated by a space, we need to tell Python to add one in by including the `“ “`, otherwise, each string will be printed back-to-back.
 ```Python
-first_name = "katherine"
-last_name = "walden"
+first_name = "john"
+last_name = "templeton"
 full_name = first_name + " " + last name
 
 print(full_name)
@@ -169,8 +169,8 @@ print(full_name)
 
 21. We can then use the `print()` function as we did before to output `full_name` in title case.
 ```Python
-first_name = "katherine"
-last_name = "walden"
+first_name = "john"
+last_name = "templeton"
 full_name = first_name + " " + last name
 
 print("Hello, " + full_name.title() + "!")
@@ -181,8 +181,8 @@ print("Hello, " + full_name.title() + "!")
 23. We could also assign this whole sentence to a variable and return the same output.
 
 ```Python
-first_name = "katherine"
-last_name = "walden"
+first_name = "john"
+last_name = "templeton"
 full_name = first_name + " " + last name
 
 sentence="Hello, " + full_name.title() + "!"
@@ -1004,14 +1004,14 @@ Q15: Using the same list from the previous question, write a program that includ
 
 # How to submit this lab (and show your work)
 
-Moving forward, we'll submit lab notebooks as `.py` files. 
+Moving forward, we'll submit lab notebooks as `.ipynb` files. 
 
-One option is to have a `.py` file that you use to run code and test programs while working through the lab. When ready to submit the lab notebook, you add comments and remove extraneous materials.
+One option is to have a `.ipynb` file that you use to run code and test programs while working through the lab. When ready to submit the lab notebook, you add comments and remove extraneous materials.
 
-Another option is to have an "official" `.py` file that you are using as a lab notebook (separate from your working/testing file). Use comments in Python to note when you are starting a new question (as well as answering a question).
-  * Example: `Lab5_Notebook_Walden.py`
+Another option is to have an "official" `.ipynb` file that you are using as a lab notebook (separate from your working/testing file). Use comments in Python to note when you are starting a new question (as well as answering a question).
+  * Example: `Lab4_Notebook_Templeton.ipynb`
 
-What gets submitted as the lab notebook is the `Lab5_Notebook_Walden.py` file.
+What gets submitted as the lab notebook is the `Lab4_Notebook_Templeton.ipynb` file.
 - When in doubt, use comments
 - Be sure you are using comments to note what question you're responding to
  
@@ -1071,5 +1071,3 @@ Q15: Using the same list from the previous question, write a program that includ
 - Shuffles your list
 
 Q16: What is the difference between a `list` and a `string`? What are some methods you can perform on a `list` that you can't do with a `string` (and vice versa)?
-
-Q17: Include a link to your Replit workspace for this lab.
