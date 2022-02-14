@@ -778,7 +778,7 @@ random.sample(list, 2)
 
 ### Looking Ahead
 
-104. In the next lab, we'll talk all about conditional statements.
+104. In a future lab, we'll talk all about conditional statements (Module 6).
 
 105. But for now, let's take a step back and think about how Python interacts with or treats the items in our list.
 
